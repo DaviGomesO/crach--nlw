@@ -1,0 +1,86 @@
+<!--
+  Comentários é assim
+
+  HTML - 
+  HyperText
+  é um texto com links
+  
+  Markup
+  Tags / texto-puro
+  
+  Language
+  regras de uma linguagem
+ -->
+<!DOCTYPE html>
+<!-- Tag raiz, onde inicia-->
+<html>
+  <!--Tags filhas, ou nós da raiz-->
+  <head>
+    <!--aqui faz atualizações na visualização e configurações da página-->
+    <title>Davi Gomes - DoWhile 2021</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- são basicamente caixinhas com o que vai ser visualizado-->
+    <!-- h1 deixa um texto grosso
+    a é um link com alguma página-->
+    <main>
+      <div class="container">
+        <div class="avatar">
+          <span>
+            <img src="imagens/selo.svg" alt="Selo Rocketseat" />
+          </span>
+
+          <img
+            src="imagens/foto_ex.jpeg"
+            alt="Foto para crachá"
+            id="userImage"
+          />
+        </div>
+
+        <h1 id="userName">Francisco Davi Gomes de Oliveira</h1>
+        <!-- target "_blank serve para abrir outra página quando clicado no link"-->
+        <a id="userLink" href="https://github.com/DaviGomesO" target="_blank">
+          <img src="imagens/github.svg" alt="Ícone github" />
+          <!--span é um texto que não é paragrafo-->
+          <span id="userLogin">maykbrito</span>
+        </a>
+        <!--Tag paragrafo a seguir:-->
+        <p id="userBio">Participante: Aluno</p>
+
+        <ul id="socialLinks">
+          <!--Lista não ordenada-->
+          <li class="youtube">
+            <a href="https://www.youtube.com/jakelinygracielly" target="_blank">
+              <img src="imagens/youtube.svg" alt="Ícone youtube" />
+            </a>
+          </li>
+          <li class="facebook">
+            <a href="https://facebook.com/maykbrito/" target="_blank">
+              <img src="imagens/facebook.svg" alt="Ícone facebook" />
+            </a>
+          </li>
+          <li class="instagram">
+            <a href="https://instagram.com/maykbrito/" target="_blank">
+              <img src="imagens/instagram.svg" alt="Ícone instagram" />
+            </a>
+          </li>
+          <li class="twitter">
+            <a href="https://twitter.com/Davigomes___" target="_blank">
+              <img src="imagens/twitter.svg" alt="Ícone twitter" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
