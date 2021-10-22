@@ -34,7 +34,8 @@ img {
 }
 */
 main {
-  background-image: url('/imagens/background.png');
+  /*background-image: url('/imagens/background.png');*/
+  background: url('/imagens/backgroung.svg');
   width: 375px;
   height: 812px;
 }
