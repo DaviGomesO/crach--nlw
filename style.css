@@ -13,6 +13,8 @@ body {
   --black: hsl(240, 6%, 13%);
   --grey: hsl(240, 9%, 89%);
 
+  background: url('imagens/matrix.gif');
+
   height: 100%;
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -34,12 +36,12 @@ img {
 }
 */
 main {
-  /*background-image: url(imagens/background.png);*/
-  /*background: url(imagens/backgroung.svg);*/
-  /*background: url(imagens/background.png);*/
-  background: url('imagens/background.png');
-  width: 375px;
-  height: 700px
+  /*ta adaptando para não repetir e adaptar no centro*/
+  /*background: url('/imagens/background.png') no-repeat  center/cover;*/
+  background: url('/imagens/backgroung.svg')  no-repeat  center/cover;
+  width: 50vw;
+  height: 100vh;
+  border-radius: 20px;
 }
 
 .container {
@@ -109,4 +111,27 @@ ul {
   gap: 0.5rem;
 
   justify-content: center;
+
+  filter: drop-shadow(0px 1px 6px rgb(150, 100, 34));
 }
+
+.youtube img {
+  border-radius: 60px;
+}
+
+.instagram img {
+  border-radius: 60px;
+}
+
+.facebook img {
+  border-radius: 60px;
+}
+
+.twitter img {
+  border-radius: 60px;
+}
+
+/*
+#userName {
+  color: rgba(202, 147, 7, 0.89);
+}*/
