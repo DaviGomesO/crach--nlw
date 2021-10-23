@@ -38,7 +38,7 @@ img {
 main {
   /*ta adaptando para não repetir e adaptar no centro*/
   /*background: url('/imagens/background.png') no-repeat  center/cover;*/
-  background: url('/imagens/backgroung.svg')  no-repeat  center/cover;
+  background: url('imagens/backgroung.svg')  no-repeat  center/cover;
   width: 50vw;
   height: 100vh;
   border-radius: 20px;
